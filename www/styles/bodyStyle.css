@@ -1,0 +1,47 @@
+﻿@font-face {
+    font-family: Lucida;
+    src: url(../fonts/LCALLIG.TTF);
+}
+
+body {
+    background: #eff9f7;
+    font-family: Lucida;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+p {
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+}
+
+b {
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    width: 100%;
+    margin-top: 100px;
+    padding: 30px;
+}

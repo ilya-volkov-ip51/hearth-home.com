@@ -1,0 +1,22 @@
+﻿.searchMenu {
+    position: fixed;
+    top: 100px;
+    height: 100%;
+    left: -400px;
+    background:	#87bf9a;
+    z-index: 100;
+}
+
+.searchMain{
+    width: 400px;
+    height: 100%;
+    float: left;
+}
+
+.searchButton {
+    padding-top: 30%;
+    height: 100%;
+    width: 30px;
+    background: red;
+    float: left;
+}

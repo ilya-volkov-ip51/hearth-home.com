@@ -4,6 +4,34 @@
     background: #fff;
     margin:0 auto 30px auto;
     padding: 15px;
+    position: relative;
+}
+
+.MainName {
+    margin: 15px;
+    text-align:center;
+}
+
+.AnnounceText {
+    margin: 15px;
+    text-align:justify;
+}
+
+.Price {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color:darkorange;
+}
+
+.Square {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+
+.Price p {
+    padding: 5px;
 }
 
 img {

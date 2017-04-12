@@ -3,4 +3,9 @@
     width: 100%;
     background: #fff;
     margin:0 auto 30px auto;
+    padding: 15px;
+}
+
+img {
+    width: 100%;
 }

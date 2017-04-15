@@ -4,7 +4,7 @@
 }
 
 body {
-    background: #eff9f7;
+    background-image: url(../img/background.jpg);
     font-family: Lucida;
     font-size: 14px;
     font-weight: normal;

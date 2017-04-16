@@ -10,3 +10,17 @@
 #logo {
     float: left;
 }
+
+#menuButton {
+    margin-top: 4%;
+    text-align:center;
+    color: white;
+    font-size: 16px;
+}
+
+#logIn {
+    font-size: 16px;
+    padding-top: 4%;
+    text-align: right;
+    color: white;
+}

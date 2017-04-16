@@ -5,6 +5,7 @@
     margin:0 auto 30px auto;
     padding: 15px;
     position: relative;
+    background-color: #FFFAF0;
 }
 
 .MainName {
@@ -21,7 +22,9 @@
     position: absolute;
     bottom: 10px;
     right: 10px;
+    left: 10px;
     background-color:darkorange;
+    text-align:center;
 }
 
 .Square {

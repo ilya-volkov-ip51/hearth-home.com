@@ -14,24 +14,32 @@
         <link href="styles/footerStyle.css" rel="stylesheet">
     </head>
     <body>
-        <div class="top-block hidden-xs">
+        <div class="top-block   ">
             <header>
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-2 col-md-2 hidden-sm">
-                            <img src="img/logo.png" alt="logo" id="logo" />
+                        <div class="col-lg-2 col-md-2 hidden-sm hidden-xs">
+                            <a href="#"><img src="img/logo.png" alt="logo" id="logo" /></a>
                         </div>
-                        <div class="col-lg-3 col-md-3 hidden-sm" id="menuButton">
-                            RENT
+                        <div class="col-lg-3 col-lg-offset-1 col-md-3 col-sm-3 col-xs-6">
+                            <div class="option">
+                                <p>RENT</p>
+                                <div id="mark1"></div>
+                            </div>      
+                        </div> 
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                            <div class="option">
+                                <p>FOR SALE</p>
+                                <div id="mark2"></div>
+                            </div>
                         </div>
-                        <div class="col-lg-2 col-md-2 hidden-sm" id="menuButton">
-                            FOR SALE
-                        </div>
-                        <div class="col-lg-5 col-md-5 hidden-sm" id="logIn">
-                            LOGIN / REGISTER
-                        </div>
-                        <div class="col-lg-6 col-lg-offset-4 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
-
+                        <div class="col-lg-3 col-md-4 col-sm-6 hidden-xs">
+                            <div id="login">
+                                LOGIN
+                            </div>
+                            <div id="registry">
+                                REGISTRATION
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -40,7 +48,7 @@
         <div class="searchMenu">
             <div class="searchMain">
                 <div class="searchHeader">
-                    SEARCH
+                    <h2>SEARCH</h2>
                 </div>
                 <div class="searchButtonParametrs">
                     <select size="3" multiple>
@@ -71,54 +79,142 @@
                     </form>
                 </div>
             </div>
-            <div class="searchButton">
-                
-            </div>
+            <img class="searchButton" src="img/searchRight.png">
         </div>
         <div class="body">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                        <div class="announcement">
-                             <img src="img/images (1).jpg" />
-                            <div class="MainName">
-                                <p>THE BEST HOUSE</p>
-                            </div>
-                            <div class="AnnounceText">
-                                <p>Big Big text bls bls bls bls bls bls bls bls bls bls bls bls bls bls bls bls bls bls bls bls bls bls bls bls bls bls bls bls</p>
-                            </div>
-                            <div class="Square">
-                                <p>S: 120</p>
-                            </div>
-                            <div class="Price">
-                                <p>500.000$</p>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 rent">
                         <div class="announcement">
                             <img src="img/images (1).jpg" />
-                            <div class="MainName">
+                            <div class="name">
                                 <p>THE BEST HOUSE</p>
                             </div>
-                            <div class="AnnounceText">
-                                <p>Big Big text bls bls bls bls bls bls bls bls bls bls bls bls bls bls bls bls bls bls bls bls bls bls bls bls bls bls bls bls</p>
+                            <div class="info">
+                                <p>Address: somewhere</p>
+                                <p>Type: house</p>
+                                <p>Price: per 1 hour</p>
                             </div>
-                            <div class="Square">
-                                <p>S: 120</p>
-                            </div>
-                            <div class="Price">
-                                <p>500.000$</p>
+                            <div class="numbers">
+                                <div class="price">500.000$</div>
+                                <div class="square">1000m2</div>
                             </div>
                         </div>
-                    </div> 
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 rent">
+                        <div class="announcement">
+                            <img src="img/images (1).jpg" />
+                            <div class="name">
+                                <p>THE BEST HOUSE</p>
+                            </div>
+                            <div class="info">
+                                <p>Address: somewhere</p>
+                                <p>Type: house</p>
+                                <p>Price: per 1 hour</p>
+                            </div>
+                            <div class="numbers">
+                                <div class="price">500.000$</div>
+                                <div class="square">1000m2</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 rent">
+                        <div class="announcement">
+                            <img src="img/images (1).jpg" />
+                            <div class="name">
+                                <p>THE BEST HOUSE</p>
+                            </div>
+                            <div class="info">
+                                <p>Address: somewhere</p>
+                                <p>Type: house</p>
+                                <p>Price: per 1 hour</p>
+                            </div>
+                            <div class="numbers">
+                                <div class="price">500.000$</div>
+                                <div class="square">1000m2</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 rent">
+                        <div class="announcement">
+                            <img src="img/images (1).jpg" />
+                            <div class="name">
+                                <p>THE BEST HOUSE</p>
+                            </div>
+                            <div class="info">
+                                <p>Address: somewhere</p>
+                                <p>Type: house</p>
+                                <p>Price: per 1 hour</p>
+                            </div>
+                            <div class="numbers">
+                                <div class="price">500.000$</div>
+                                <div class="square">1000m2</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 sale">
+                        <div class="announcement">
+                            <img src="img/images (1).jpg" />
+                            <div class="name">
+                                <p>THE BEST HOUSE</p>
+                            </div>
+                            <div class="info">
+                                <p>Address: somewhere</p>
+                                <p>Type: house</p>
+                                <p>Price: per 1 hour</p>
+                            </div>
+                            <div class="numbers">
+                                <div class="price">500.000$</div>
+                                <div class="square">1000m2</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 sale">
+                        <div class="announcement">
+                            <img src="img/images (1).jpg" />
+                            <div class="name">
+                                <p>THE BEST HOUSE</p>
+                            </div>
+                            <div class="info">
+                                <p>Address: somewhere</p>
+                                <p>Type: house</p>
+                                <p>Price: per 1 hour</p>
+                            </div>
+                            <div class="numbers">
+                                <div class="price">500.000$</div>
+                                <div class="square">1000m2</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 rent">
+                        <div class="announcement">
+                            <img src="img/images (1).jpg" />
+                            <div class="name">
+                                <p>THE BEST HOUSE</p>
+                            </div>
+                            <div class="info">
+                                <p>Address: somewhere</p>
+                                <p>Type: house</p>
+                                <p>Price: per 1 hour</p>
+                            </div>
+                            <div class="numbers">
+                                <div class="price">500.000$</div>
+                                <div class="square">1000m2</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <footer>
             <div class="container">
-
+                <p>	&copy; Copyright 2017 <span>Hearth&Home.</span> All rights reserved.</p>
+                <div class="links">
+                    <a href="http://facebook.com"><img src="img/Facebook.png" /></a>
+                    <a href="http://dribble.com"><img src="img/Dribble.png" /></a>
+                    <a href="http://twitter.com"><img src="img/Twitter.png" /></a>
+                    <a href="http://google.com"><img src="img/Google.png" /></a>
+                </div>
             </div>
         </footer>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

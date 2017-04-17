@@ -1,8 +1,28 @@
 ﻿footer {
     width: 100%;
-    height: 5%;
-    background: rgba(19,19,22,0.5);
+    height: 75px;
+    background: rgba(0,0,0,0.6);
     position: absolute;
     bottom: 0;
-    z-index: 500;
+    text-align: center;
+    color: rgba(255,255,255,0.9);
+    padding: 15px;
+}
+
+footer p{
+    font-size: 10px;
+}
+
+footer span{
+    color: rgba(250,179,22,0.9);
+}
+
+.links img{
+    margin: 10px;
+    height: 10px;
+    width: auto;
+}
+
+.links {
+    margin: 0 auto;
 }

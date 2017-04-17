@@ -10,12 +10,15 @@ function menuAppear() {
     smoothChangeCoords(-searchMain.offsetWidth, 0)
     menuButton.removeEventListener('click', menuAppear);
     menuButton.addEventListener('click', menuDisappear);
+    menuButton.src = 'img/searchLeft.png';
+
 }
 
 function menuDisappear() {
     smoothChangeCoords(0, -searchMain.offsetWidth);
     menuButton.removeEventListener('click', menuDisappear);
     menuButton.addEventListener('click', menuAppear);
+    menuButton.src = 'img/searchRight.png';
 }
 
 function smoothChangeCoords(start, end) {

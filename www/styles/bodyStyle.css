@@ -3,45 +3,61 @@
     src: url(../fonts/LCALLIG.TTF);
 }
 
+@font-face {
+    font-family: LibreBaskerville;
+    src: url(../fonts/libre-baskerville/LibreBaskerville-Regular.otf);
+}
+
+@font-face {
+    font-family: LibreBaskerville-Bold;
+    src: url(../fonts/libre-baskerville/LibreBaskerville-Bold.otf);
+}
+
+@font-face {
+    font-family: LibreBaskerville-Italic;
+    src: url(../fonts/libre-baskerville/LibreBaskerville-Italic.otf);
+}
+
+
+
 body {
-    background-image: url(../img/background.jpg);
-    font-family: Lucida;
+    background: url(../img/background.jpg);
+    position: relative;
+    font-family: LibreBaskerville;
     font-size: 14px;
-    font-weight: normal;
 }
 
 p {
-    font-weight: lighter;
+    font-family: LibreBaskerville;
     margin: 0;
     padding: 0;
 }
 
 b {
-    font-weight: bold;
+    font-family: LibreBaskerville-Bold;
     margin: 0;
     padding: 0;
 }
 
 h1 {
-    font-weight: bold;
+    font-family: LibreBaskerville-Bold;
     margin: 0;
     padding: 0;
 }
 
 h2 {
-    font-weight: bold;
+    font-family: LibreBaskerville;
     margin: 0;
     padding: 0;
 }
 
 h3 {
-    font-weight: normal;
+    font-family: LibreBaskerville;
     margin: 0;
     padding: 0;
 }
 
 .body {
     width: 100%;
-    margin-top: 100px;
-    padding: 30px;
+    padding: 130px 0;
 }

@@ -1,42 +1,63 @@
-﻿.announcement {
+﻿.rent {
+    display: none;
+}
+
+.sale {
+    display: none;
+}
+
+.announcement {
     height: 400px;
-    width: 100%;
-    background: #fff;
+    width: 260px;
+    background: #fef7e7;
     margin:0 auto 30px auto;
-    padding: 15px;
     position: relative;
-    background-color: #FFFAF0;
+    cursor: pointer;
 }
 
-.MainName {
-    margin: 15px;
-    text-align:center;
+.announcement img {
+    width: 260px;
+    height: 190px;
+    padding: 15px;
 }
 
-.AnnounceText {
-    margin: 15px;
-    text-align:justify;
-}
-
-.Price {
+.numbers {
     position: absolute;
-    bottom: 10px;
-    right: 10px;
-    left: 10px;
-    background-color:darkorange;
-    text-align:center;
+    bottom: 0;
+    height: 40px;
+    width: 230px;
+    background: #ddd;
+    margin: 15px;
 }
 
-.Square {
-    position: absolute;
-    bottom: 15px;
-    left: 15px;
+.price {
+    height: 40px;
+    width: 50%;
+    line-height: 40px;
+    float: left;
+    text-align: center;
+    background: #fab316;
+    color: rgba(0,0,0,0.7);
 }
 
-.Price p {
-    padding: 5px;
+.square {
+    height: 40px;
+    width: 50%;
+    line-height: 40px;
+    float: left;
+    text-align: center;
+    background: #f05a28;
+    color: rgba(255,255,255,0.85);
 }
 
-img {
-    width: 100%;
+.name {
+    text-align: center;
 }
+
+.info {
+    margin: 15px;
+    width: 230px;
+    height: 80px;
+    font-size: 12px;
+}
+

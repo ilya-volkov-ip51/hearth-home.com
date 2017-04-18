@@ -4,6 +4,13 @@
     searchMain = document.getElementsByClassName('searchMain')[0];
     searchMenu.style.left = '-' + searchMain.offsetWidth + 'px';
     menuButton.addEventListener('click', menuAppear);
+    hover = document.getElementById('searchHover');
+    menuButton.addEventListener('mouseover', function () {
+        hover.style.visibility = 'visible';
+    });
+    menuButton.addEventListener('mouseout', function () { 
+        hover.style.visibility = 'hidden';
+    });
 }
 
 function menuAppear() {

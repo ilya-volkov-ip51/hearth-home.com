@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Hearth&Home</title>
+        <link rel="shortcut icon" href="img/home.ico" />
         <link href="styles/bootstrap.css" rel="stylesheet">
         <link href="styles/bootstrap-theme.css" rel="stylesheet">
         <link href="styles/bodyStyle.css" rel="stylesheet">
@@ -47,8 +48,12 @@
         </div>
         <div class="searchMenu">
             <div class="searchMain">
+                <form class="search">
+                    <input type="search" name="q" placeholder="Search..." />
+                    <button type="submit"><img src="img/search.png" /></button>
+                </form>
                 <div class="searchHeader">
-                    <h2>SEARCH</h2>
+                    <h3>SEARCH OPTIONS</h3>
                 </div>
                 <div class="searchButtonParametrs">
                     <select size="3" multiple>
@@ -74,10 +79,10 @@
                         <option value="4">75-120</option>
                         <option value="5">120+</option>
                     </select>
-                    <form>
-                        <button>Search</button>
-
-                    </form>
+                </div>
+                <div class="searchOptions">
+                    <button id="apply">APPLY</button>
+                    <button id="clear">CLEAR</button>
                 </div>
             </div>
             <img class="searchButton" src="img/searchRight.png">

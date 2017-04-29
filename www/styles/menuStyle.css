@@ -2,7 +2,7 @@
     position: fixed;
     top: 100px;
     height: 100%;
-    left: 400px;
+    left: -400px;
     z-index: 100;
 }
 

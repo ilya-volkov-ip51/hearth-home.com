@@ -1,13 +1,14 @@
 ﻿function load() {
     up = document.getElementById('up');
+    upHover = document.getElementById('upHover');
     up.addEventListener('click', function () {
         scrollSmooth(0);
     });
     up.addEventListener('mouseover', function () {
-        up.style.background = 'url(../img/upArrowHighlited.png)';
+        upHover.style.display = 'block';
     });
     up.addEventListener('mouseout', function () {
-        up.style.background = 'url(../img/upArrow.png)';
+        upHover.style.display = 'none';
     });
     document.addEventListener('scroll', scroll);
 }

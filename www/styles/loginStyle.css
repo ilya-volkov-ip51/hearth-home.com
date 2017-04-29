@@ -1,0 +1,68 @@
+﻿.bodySmall {
+    width: 100%;
+}
+
+.bodySmall .container > div{
+    background-image: url(../img/wood.jpg);
+    background-size:contain;
+    height: 400px;
+    margin-top: 120px;
+    border: 4px solid rgba(0,0,0,0.3);
+}
+
+.bodySmall h2{
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+input[type="text"], input[type="password"] {
+    height: 40px;
+    width: 100%;
+    padding: 10px 45% 10px 10px;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    position: absolute;
+    left: 0;
+}
+
+.bodySmall button{
+    position: absolute;
+    right: 15px;
+    bottom: 25px;
+    height: 40px;
+    width: 150px;
+    margin: 0 auto;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    border: none;
+    background: #fab316;
+}
+
+.bodySmall img{
+    width: 200px;
+}
+
+.textAlert{
+    background-image: none;    
+    height: 40px;
+    background: rgba(255,0,0,0.25);
+    width: 40%;
+    z-index: 100;
+    position: absolute;
+    right: 0;
+    display:none;
+    color: rgba(255,255,255,0.9);
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+.bodySmall .container > div  div {
+    margin: 15px auto;
+    width: 100%;
+    height: 40px;
+    position: relative;
+}

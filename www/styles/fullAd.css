@@ -1,0 +1,28 @@
+﻿#adInfo {
+    margin-top: 100px;
+    width: 370px;
+    float: left;
+    background-image: url(../img/wood.jpg);
+    background-size:contain;
+    border: 4px solid rgba(0,0,0,0.5);
+}
+
+.price {
+    height: 40px;
+    width: 300px;
+    margin: 20px auto;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    background: #f05a28;
+}
+
+.square {
+    height: 40px;
+    width: 300px;
+    margin: 20px auto;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    background: #fab316;
+}
